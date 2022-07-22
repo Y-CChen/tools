@@ -1,7 +1,9 @@
 <script lang="ts" setup></script>
 
 <template>
-  <saviah-welcome />
+  <div class="flex">
+    <saviah-welcome class="mx-auto" />
+  </div>
 </template>
 
 <style scoped></style>

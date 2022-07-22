@@ -1,7 +1,11 @@
 <script lang="ts" setup></script>
 
 <template>
-  saviah-welcome
+  <span class="welcome">saviah-welcome</span>
 </template>
 
-<style scoped></style>
+<style lang="postcss" scoped>
+.welcome {
+  @apply px-4 py-2 bg-blue-700 text-white underline rounded shadow hover:bg-blue-500;
+}
+</style>
