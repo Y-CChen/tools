@@ -1,0 +1,14 @@
+enum Locales {
+  EN_US = 'en-US',
+  ZH_TW = 'zh-TW',
+}
+
+export default {
+  locales: Object.values(Locales).map((locale) => {
+    return {
+      code: locale,
+      file: `${locale}.json`,
+    };
+  }),
+  defaultLocale: Locales.ZH_TW,
+};

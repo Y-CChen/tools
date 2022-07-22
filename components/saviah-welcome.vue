@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <span class="welcome">saviah-welcome</span>
+  <span class="welcome">{{ $t('welcome') }}</span>
 </template>
 
 <style lang="postcss" scoped>
