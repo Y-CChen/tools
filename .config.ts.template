@@ -4,6 +4,7 @@ enum Locales {
 }
 
 export default {
+  dev: process.env.NODE_ENV === 'development',
   locales: Object.values(Locales).map((locale) => {
     return {
       code: locale,

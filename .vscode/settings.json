@@ -1,8 +1,9 @@
 {
     "cSpell.words": [
-        "postcss",
-        "saviah",
-        "tailwindcss"
+      "composables",
+      "postcss",
+      "saviah",
+      "tailwindcss"
     ],
     "eslint.packageManager": "yarn",
     "i18n-ally.displayLanguage": "zh-TW",
